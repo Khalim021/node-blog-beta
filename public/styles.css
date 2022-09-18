@@ -1,0 +1,35 @@
+.main__content {
+   width: 100%;
+}
+
+/* detail style */
+.tesla {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tesla h3 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: orange;
+}
+
+.tesla img {
+    width: 100%;
+}
+
+.tesla .tesla__desc {
+    font-size: 20px;
+}
+
+.tesla .tesla__price {
+    margin: 10px;
+    font-size: 24px;
+}
+
+
+
+
+

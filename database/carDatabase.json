@@ -1,0 +1,26 @@
+[
+  {"title":"Model S",
+  "price":"10000",
+  "description":"Model S platforms unite powertrain and battery technologies for unrivaled performance, range and efficiency. ","image":"https://www.tesla.com/ownersmanual/images/GUID-5543BA62-932F-46C5-B1EF-44707D4726B2-online-en-US.png",
+  "id":"d26d92c5-6ab0-408c-8e17-540ed7e9f6b8"
+  },
+  {
+    "title":"Model X",
+    "price":"20000",
+    "description":"Model X platforms unite powertrain and battery technologies for unrivaled performance, range and efficiency",
+    "image":"https://pbs.twimg.com/media/FTKL5kGXwAg4az8.jpg",
+    "id":"bfd31f63-f757-4d95-b842-d1b45ea97199"},
+    {
+      "title":"Model XS",
+      "price":"12031",
+      "description":"Model S platforms unite powertrain and battery technologies for unrivaled performance, range and efficiency",
+      "image":"https://www.tesla.com/ownersmanual/images/GUID-5543BA62-932F-46C5-B1EF-44707D4726B2-online-en-US.png",
+      "id":"6255578c-7c37-4576-a176-4cfa43f33826"},
+    {
+      "title":"Model SX",
+      "price":"1234",
+      "description":"Model S platforms unite powertrain and battery technologies for unrivaled performance, range and efficiency",
+      "image":"https://www.tesla.com/ownersmanual/images/GUID-5543BA62-932F-46C5-B1EF-44707D4726B2-online-en-US.png",
+      "id":"e8bbc2fb-5c0a-438c-8f96-21efe214d7bb"
+    }
+  ]

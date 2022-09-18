@@ -1,0 +1,43 @@
+<h4 style="margin-top: 20px; color: orange;">Edit {{tesla.title}} Details</h4>
+
+<form action="/cars/edit" method="post" class="mt-4 shadow p-3 mb-5 bg-body rounded" enctype="multipart/form-dataf">
+  <div class="form-floating mb-3">
+    <input 
+    type="text" 
+    class="form-control" 
+    id="title" name="title" 
+    placeholder="name..." required value="{{tesla.title}}">
+    <label for="title">Model</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input 
+    type="number" 
+    class="form-control" 
+    id="price" name="price" 
+    placeholder="price..." required value="{{tesla.price}}">
+    <label for="price">Price</label>
+  </div>
+  <div class="form-floating mb-3">
+    <textarea 
+    class="form-control" 
+    placeholder="description..." 
+    id="description" name="description" 
+    style="height: 100px" aria-valuetext="{{tesla.description}}" required></textarea>
+    <label for="description">Description</label>
+  </div>
+  <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file example" required id="image" name="image">
+    <div class="invalid-feedback">Please Provide with image</div>
+  </div>
+  <input type="hidden" name="id" value="{{tesla.id}}" />
+  <button class="btn btn-secondary btn-lg" style="width: 15%; background-color: orange;">Edit Tesla</button>
+</form>
+
+
+
+
+
+
+
+
+

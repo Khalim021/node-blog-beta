@@ -1,0 +1,28 @@
+<h6 class="mt-4 mb-3" style="color: orange; font-size: 24px;">Tesla Company</h6>
+
+{{#if cars.length}}
+<div class="main__content">
+  {{#each cars}}
+    <div class="card mb-3">
+      <img src="{{image}}" class="card-img-top" alt="{{title}}">
+        <div class="card-body">
+        <h5 class="card-title">{{title}}</h5>
+        <p class="card-text">{{description}}</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="card-body">
+          <a class="btn btn-info mb-3"  href="/cars/{{id}}" target="_blank" style="width: 50%;">Read Details</a>
+          <a class="btn btn-secondary" href="/cars/{{id}}/edit?allow=true" style="width: 50%;">Edit Info</a>
+          <form action="/card/add" method="post">
+            <input type="hidden" name="id" value="{{id}}"/>
+            <button class="btn mt-3" style="background-color: orange; width: 50%" type="submit">Buy Now</button>
+          </form>
+        </div>
+    </div>
+</div>
+    {{/each}}
+  </div>
+{{else}}
+ <h4>Car Shop is Empty</h4>
+{{/if}}
+
+

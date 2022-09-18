@@ -1,0 +1,30 @@
+<h4 style="margin-top: 20px; color: orange;">Add New Tesla</h4>
+
+<form action="/create" method="post" class="mt-4 shadow p-3 mb-5 bg-body rounded" enctype="multipart/form-dataf">
+  <div class="form-floating mb-3">
+    <input type="text" class="form-control" id="title" name="title" placeholder="name..." required>
+    <label for="title">Model</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="number" class="form-control" id="price" name="price" placeholder="price..." required>
+    <label for="price">Price</label>
+  </div>
+  <div class="form-floating mb-3">
+    <textarea class="form-control" placeholder="description..." id="description" name="description" style="height: 100px" required></textarea>
+    <label for="description">Description</label>
+  </div>
+  <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file example" required id="image" name="image">
+    <div class="invalid-feedback">Please Provide with image</div>
+  </div>
+  <button class="btn btn-lg" style="width: 15%; background-color: orange;">Add Car</button>
+</form>
+
+
+
+
+
+
+
+
+
